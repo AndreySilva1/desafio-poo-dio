@@ -26,7 +26,7 @@ public class Dev {
         }
     }
 
-    public double calcularTotalCp() {
+    public double calcularTotalxp() {
         return this.conteudosConcluidos
                 .stream()
                 .mapToDouble(Conteudo::calcularXp)
